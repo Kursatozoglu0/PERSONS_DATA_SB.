@@ -98,14 +98,7 @@ select name_surname,category_title,title_id from Persons_Data inner join Unvanla
 
 
 
-SELECT 
-    Name_Surname, 
-    Age,
-    CASE 
-        WHEN Age > 35 THEN 'Yaşlı' 
-        ELSE 'Genç' 
-    END AS Yas_Grubu
-FROM Persons_Data;
+
 
 
 
